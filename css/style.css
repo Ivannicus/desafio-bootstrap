@@ -1,0 +1,9 @@
+.lead{
+    font-size: 1rem;
+}
+
+.container-fluid div nav div iframe{
+    max-width: 80%;
+    max-height: 75%;
+
+}
