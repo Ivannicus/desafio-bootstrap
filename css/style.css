@@ -3,7 +3,11 @@
 }
 
 .container-fluid div nav div iframe{
-    max-width: 80%;
-    max-height: 75%;
+    max-height: 80%;
+    margin: auto;
+}
 
+nav table{
+    max-width: 80%;
+    margin: auto;
 }
