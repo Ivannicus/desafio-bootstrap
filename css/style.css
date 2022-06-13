@@ -11,3 +11,7 @@ nav table{
     max-width: 80%;
     margin: auto;
 }
+
+div section img{
+    max-height: 225px;
+}
