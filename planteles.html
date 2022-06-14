@@ -37,21 +37,8 @@
                             <li class="nav-item">
                                 <a class="nav-link active text-light" href="./fixture.html">Fixture</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Planteles
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Masculino</a></li>
-                                    <li><a class="dropdown-item" href="#">Femenino</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Sub-21</a></li>
-                                    <li><a class="dropdown-item" href="#">Sub-19</a></li>
-
-                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" href="./planteles.html">Planteles</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active text-light" href="./historia.html">Historia</a>
@@ -72,7 +59,49 @@
     </header>
     <!-- MAIN -->
     <div class="container-fluid">
-        <h2>Planteles</h2>
+        <h2 class="text-center">Planteles</h2>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://bolavip.com/__export/1648320228117/sites/bolavip/img/2022/03/26/colo-colo_1_crop1648320226439.jpg_242310155.jpg" class="d-block w-75 mx-auto" alt="Plantel Masculino">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-bg-dark">Plantel Masculino 2022</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://redgol.cl/__export/1652548266871/sites/redgol/img/2022/05/14/280346229_167059272358843_7267708816464763281_n_crop1652546575300.jpg_242310155.jpg" class="d-block w-75 mx-auto" alt="Plantel Femenino">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-bg-dark">Plantel Femenino 2022</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://dalealbo.cl/__export/1636843262085/sites/dalealbo/img/2021/11/13/colo-colo-sub-21-derroto-a-barnechea_crop1636843252539.jpg_242310155.jpg" class="d-block w-75 mx-auto" alt="Plantel Sub-21">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-bg-dark">Plantel Sub-21</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://anfp.cl/imagenes/noticias/p1del2u6n7a1g41qo4s1q991rqe8.jpeg" class="d-block w-75 mx-auto" alt="Plantel Sub-19">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-bg-dark">Plantel Sub-19</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
     </div>
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
@@ -100,7 +129,8 @@
                         <div class="col-md-5 col-12">
                             <!-- Email input -->
                             <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example21" class="form-control text-center" placeholder="tucorreo@dominio.com"/>
+                                <input type="email" id="form5Example21" class="form-control text-center"
+                                    placeholder="tucorreo@dominio.com" />
                             </div>
                         </div>
                         <div class="col-auto">
