@@ -72,7 +72,55 @@
     </header>
     <!-- MAIN -->
     <div class="container-fluid">
-        <h2 class="text-center mt-3">¡Hazte Socio!</h2>
+
+        <form class="formularioSocio col-8 mx-auto mt-auto mb-4">
+            <!-- Name input -->
+            <h2 class="text-center mt-3 text-white">¡Hazte Socio!</h2>
+            <div class="form-outline mb-4 mt-4">
+                <input type="text" id="form4Example1" class="form-control mx-auto mt-auto mb-auto w-75"
+                    placeholder="Nombre Completo" />
+                <label class="form-label" for="form4Example1"></label>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input type="email" id="form4Example2" class="form-control mx-auto mt-auto mb-auto w-75"
+                    placeholder="Correo Electrónico" />
+                <label class="form-label" for="form4Example2"></label>
+            </div>
+
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+                <textarea class="form-control mx-auto mt-auto mb-auto w-75" id="form4Example3" rows="4"
+                    placeholder="Opcional: Déjanos un mensaje"></textarea>
+                <label class="form-label" for="form4Example3"></label>
+            </div>
+
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4 w-80">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                <label class="form-check-label text-white" for="form4Example4">
+                    Deseo recibir las actualizaciones a mi correo electrónico
+                </label>
+            </div>
+            <div>
+                <select name="país" class="form-select w-50 mx-auto mt-auto mb-auto">
+                    <option value="seleccion">¿De donde eres?</option>
+                    <option value="chi">Chile</option>
+                    <option value="lat">Latinoamerica</option>
+                    <option value="nor">Norteamérica</option>
+                    <option value="eur">Europa</option>
+                    <option value="asi">Asia</option>
+                    <option value="oce">Oceanía</option>
+                </select>
+            </div>
+            <div class="mt-2 mb-4 mx-auto">
+                <section class="w-100 mt-2 mb-4">
+                    <button type="submit" value="Suscribirme" class="btn btn-dark mx-auto mt-auto mb-auto">Suscribirme</button>
+                    <button type="reset" value="Borrar Todo" class="btn btn-dark mx-auto mt-auto mb-auto">Borrar Todo</button>
+                </section>
+            </div>
+        </form>
     </div>
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
@@ -100,7 +148,8 @@
                         <div class="col-md-5 col-12">
                             <!-- Email input -->
                             <div class="form-outline form-white mb-4">
-                                <input type="email" id="form5Example21" class="form-control text-center" placeholder="tucorreo@dominio.com"/>
+                                <input type="email" id="form5Example21" class="form-control text-center"
+                                    placeholder="tucorreo@dominio.com" />
                             </div>
                         </div>
                         <div class="col-auto">

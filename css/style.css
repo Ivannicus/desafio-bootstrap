@@ -4,7 +4,6 @@
 
 .container-fluid div nav div iframe{
     max-height: 80%;
-    margin: auto;
 }
 
 nav table{
@@ -14,4 +13,11 @@ nav table{
 
 div section img{
     max-height: 225px;
+}
+
+.formularioSocio{
+    background-image: url(/img/Background.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    margin: 2rem;
 }
